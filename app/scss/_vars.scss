@@ -1,0 +1,53 @@
+$title-blue: #243f4d;
+$title-black: #191919;
+$text-black: #262626;
+$header-text: #436372;
+$title-footer: #1f2044;
+$text-footer: #7b7b7b;
+$main-bg: #fcd7b6;
+$main-btn: #a3bbc8;
+$info-bg: #fef7f0;
+$products-btn: #8b8b8b;
+$products-btn2: #292929;
+
+
+
+%main-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s;
+    color: #fff;
+    background-color: $main-btn;
+    &:hover {
+        background-color: darken($main-btn, 10%);
+    }
+    &:active {
+        background-color: darken($main-btn, 20%);
+    }
+}
+
+%dmsans-700 {
+    font-family: 'DMSans-Bold', sans-serif;
+    font-weight: 700;
+}
+%dmsans-500 {
+    font-family: 'DMSans-Medium', sans-serif;
+    font-weight: 500;
+}
+%dmsans-400 {
+    font-family: 'DMSans-Regular', sans-serif;
+    font-weight: 400;
+}
+%rubik-500 {
+    font-family: 'Rubik-Medium', sans-serif;
+    font-weight: 500;
+}
+%rubik-400 {
+    font-family: 'Rubik-Regular', sans-serif;
+    font-weight: 400;
+}
+%poppins-700 {
+    font-family: 'Poppins-Bold', sans-serif;
+    font-weight: 700;
+}
